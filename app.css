@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: #edf0f7; 
+}
+.container{
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    margin: 50px auto;
+}
+p{
+    text-align: center;
+    font-weight: 600;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.figma{
+    width: 600px;
+    gap: 10px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+
+
+}
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+
+
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+span{
+    color: gray;
+}
+button{
+    padding: 10px;
+    color: blue;
+    border: 1px solid grey;
+    background: transparent;
+}
